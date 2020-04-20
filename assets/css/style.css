@@ -1,222 +1,224 @@
 html {
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#777777;
-    letter-spacing: 2px;
-  }
+  background-color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #777777;
+  letter-spacing: 2px;
+}
 
 .clearfix::before,
 .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+  content: " ";
+  display: table;
+  clear: both;
 }
 
 a {
-    color:#777777;
-    text-decoration: none;
+  color: #777777;
+  text-decoration: none;
 }
 
 p a {
-    color: burlywood;
+  color: burlywood;
 }
 
 q {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    font-size: 150%;      
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 150%;
 }
 
 header {
-    max-width: 960px;
-    margin: auto;
+  max-width: 1140px;
+  margin: auto;
 }
 
 .tabs {
-    float: right;
-    padding: 24px 0px;
-
+  float: right;
+  padding: 24px 0px;
 }
 
 .name {
-    float: left;
-    padding:20px;
-    font-weight: bold;
-    font-size: 160%;
-    background-color: #4aaaa5;
-    color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 160%;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 section {
-    background-image: url("../images/dust_scratches.png");
-    border: 1px solid #cccccc;
+  background-image: url("../images/dust_scratches.png");
+  border: 1px solid #cccccc;
 }
 
 .content {
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    max-width: 920px;
-
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1140px;
 }
 
 .fmt1 {
-    color: #4aaaa5;
-    font-weight: bold;
-    font-size: 150%;
-    padding: 20px 0px;
-    margin-bottom: 30px;
-    border-bottom: 2px solid lightgrey;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid lightgrey;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .imagearea {
-    float: left;
-    padding: 0px 14px 10px 0;
+  float: left;
+  padding: 0px 14px 10px 0;
 }
 
 footer {
-    padding-top: 40px;
-    text-align: center;
-    background-color: #666666;
-    color: #ffffff;
-    font-size: 75%;
-    border-top: 6px solid #4aaaa5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #666666;
+  color: #ffffff;
+  font-size: 75%;
+  border-top: 6px solid #4aaaa5;
 }
 
-input[type=text], textarea {
-    width: 100%;
-    padding: 2px 2px;
-    margin: 8px 0;
-    box-sizing: border-box; 
-    font-family: Arial, Helvetica, sans-serif;
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 2px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea {
-    height: 200px;
+  height: 200px;
 }
 
-input[type=submit] {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
+input[type="submit"] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
 }
 
 .stickit {
-    position: absolute;
-    padding:8px 0px;
-    width: 200px;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    top:72%;
-    left: 0px;
-    margin-left: 30px;
+  position: absolute;
+  padding: 8px 0px;
+  width: 200px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  top: 72%;
+  left: 0px;
+  margin-left: 30px;
 }
 
 .projects {
-    float: left;
-    padding: 30px;
-    position: relative;
+  float: left;
+  padding: 30px;
+  position: relative;
 }
 
 a:hover {
-    color: burlywood;
-    font-weight: bold;
+  color: burlywood;
+  font-weight: bold;
 }
 
 input#submit:hover {
-    color: black;
-    background-color: #4aaA00;
+  color: black;
+  background-color: #4aaa00;
 }
 
 .fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
+  padding: 15px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
 
 .fa-facebook {
-    background: #007bb5;
-    color: white;
+  background: #007bb5;
+  color: white;
 }
 
 .fa-stack-overflow {
-    background: yellow;
-    color: black;
+  background: yellow;
+  color: black;
 }
 
 .fa-github {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 
 .section1 {
-    width: 55%;
-    float: left;
-    background-color: #ffffff;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #cccccc;
+  width: 70%;
+  float: left;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
 }
 
 .section2 {
-    text-align: center;
-    width: 35%;
-    float: right;
-    background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #cccccc;
+  text-align: center;
+  width: 25%;
+  float: right;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #cccccc;
 }
 
-@media screen and (max-width: 980px) {
-    
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  border-bottom: 0.2px solid #cccccc;
 }
 
-@media screen and (max-width: 768px) {
-    .section1 {
-        float: none;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .tabs {
-        float: left;
-        padding-left: 10px;
-    }
+@media screen and (max-width: 960px) {
+  .section1 {
+    float: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tabs {
+    float: left;
+    padding-left: 10px;
+  }
 
-    .section2 {
-        float: none;
-        width: 90%;    
-        text-align: left;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .section2 {
+    float: none;
+    width: 90%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 640px) {
-
-    .imagearea {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align:center;
-    }
-    .projects {
-        float: none;
-    }
+  .imagearea {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .projects {
+    float: none;
+  }
 }
